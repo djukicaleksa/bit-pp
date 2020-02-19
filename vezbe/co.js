@@ -150,7 +150,7 @@ res = "";
 if (a === 50 || b === 50 || a + b === 50) {
     res = "true";
 } else {
-    res = "false";
+    res = "false";  
 }
 
 console.log(res);
