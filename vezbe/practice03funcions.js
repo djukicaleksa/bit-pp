@@ -78,4 +78,18 @@ function specific(length, e) {
 }
 console.log(specific(23, 'hue'));
 
-//////////////////////////////////////////////////////////////// SEVENTH TASK
+function insert(text, add, loc) {
+    var res = '';
+    if (typeof (loc) === 'undefined') {
+        loc = 1;
+    }
+    for (var i = 0; i < text.length; i++) {
+        if (i !== loc) {
+            res = res + text[i];
+        } else {
+            res += add;
+        }
+    }
+    return res;
+}
+console.log(insert('My random string', '--ADDED TEXT--', 7));
