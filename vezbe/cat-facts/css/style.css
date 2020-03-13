@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+header{
+    width: 100%;
+    background-color: rgb(192, 177, 206);
+    
+}
+#buttonContainer{
+    margin: 50px auto;
+    width: 500px;
+    display: flex;
+
+}
+#addCocktail{
+
+    background-color: cornsilk;
+    width: 200px;
+    height: 200px;
+    margin:0 auto;
+    font-size: 2em;
+}
+#removeCocktail{
+    
+    background-color: cornsilk;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 2em;
+}
+#content{
+    width: 100%;
+    max-width: 960px;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+
+
+}
+p{
+    text-align: center;
+}
+.cocktail{
+    margin: 0 auto;
+    text-align: center;
+}
+img{
+    margin: 30px;
+    width: 70%;
+}
