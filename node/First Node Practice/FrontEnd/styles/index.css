@@ -1,0 +1,7 @@
+header {
+    width: 100%;
+    background-color: brown;
+}
+header h1 {
+    margin : 0 auto;
+}
